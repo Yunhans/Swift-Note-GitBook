@@ -63,7 +63,7 @@ print(x)
 >
 > 0
 
-{% hint style="info" %}
+{% hint style="warning" %}
 如果把 var 換成 let 會發生什麼事呢？&#x20;
 {% endhint %}
 
@@ -116,7 +116,7 @@ Swift 可用的複合指派運算子有：
 2. 減法指派運算子 `-=`
 3. 乘法指派運算子 `*=`
 4. 除法指派運算子 `/=`
-5. 指派運算子 `%=`
+5. 餘數指派運算子 `%=`
 
 {% code lineNumbers="true" %}
 ```swift
@@ -130,11 +130,3 @@ print("There are \(numberOfDogs) dalmations!")
 輸出：
 
 > There are 101 dalmations!
-
-{% hint style="info" %}
-```
-numberOfDogs += 1
-numberOfDogs = numberOfDogs + 1
-這兩行是一樣的
-```
-{% endhint %}
