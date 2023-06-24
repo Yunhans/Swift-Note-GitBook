@@ -1,1 +1,8 @@
-# Swift-Note-GitBook
+# 🥳 前言
+
+## 歡迎
+
+這是一個學習swift程式語言的筆記
+
+
+
