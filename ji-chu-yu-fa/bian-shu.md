@@ -1,3 +1,7 @@
+---
+description: Variables
+---
+
 # 變數
 
 ## 變數 Variables
@@ -108,11 +112,11 @@ print("I have \(apples) apples!")
 
 Swift 可用的複合指派運算子有：
 
-1. `+=`
-2. `-=`
-3. `*=`
-4. `/=`
-5. `%=`
+1. 加法指派運算子 `+=`
+2. 減法指派運算子 `-=`
+3. 乘法指派運算子 `*=`
+4. 除法指派運算子 `/=`
+5. 指派運算子 `%=`
 
 {% code lineNumbers="true" %}
 ```swift

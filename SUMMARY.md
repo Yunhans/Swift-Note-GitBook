@@ -4,5 +4,6 @@
 
 ## 基礎語法
 
-* [開始囉！](ji-chu-yu-fa/kai-shi-luo.md)
+* [基礎](ji-chu-yu-fa/ji-chu.md)
 * [變數](ji-chu-yu-fa/bian-shu.md)
+* [條件判斷](ji-chu-yu-fa/tiao-jian-pan-duan.md)
