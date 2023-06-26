@@ -20,7 +20,7 @@ print("Hello world!")
 
 程式語言是一行一行、由上而下的編譯 (line by line)
 
-{% code lineNumbers="true" fullWidth="false" %}
+{% code fullWidth="false" %}
 ```swift
 print("Hola")
 print("Buenos días")
@@ -45,7 +45,6 @@ print("Buenos días")
 
 使用 `/*` 以及 `*/` 所包含的所有文字將不會被編譯，無論有沒有跨行
 
-{% code lineNumbers="true" %}
 ```swift
 /* 
 全部都是註解
@@ -53,7 +52,6 @@ print("Buenos días")
 都不會被編譯
 */
 ```
-{% endcode %}
 
 {% hint style="info" %}
 註解是為了讓自己以及其他人了解程式碼的功能及目的，是維護程式碼很重要的一部份

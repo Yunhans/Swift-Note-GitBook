@@ -4,13 +4,12 @@ description: Conditionals & Logic
 
 # 條件判斷
 
-## if條件判斷 if...else Statement
+## if條件判斷 if Statement
 
 如果 `if` 之後的條件成立(true)，`if` 所包含的程式碼區塊便會被執行
 
 反之如果 `if` 之後的條件不成立(false)，`if` 所包含的程式碼區塊便不會被執行
 
-{% code lineNumbers="true" %}
 ```swift
 var halloween = true
 
@@ -18,15 +17,15 @@ if halloween {
   print("Trick or treat!")
 }
 ```
-{% endcode %}
 
 輸出：
 
 > Trick or treat!
 
+### 例外條件判斷 else Statement
+
 `else` 是 `if` 的好夥伴，當 `if` 不成立時，`else` 所包含的程式碼區塊便會被執行
 
-{% code lineNumbers="true" %}
 ```swift
 var turbulence = false 
 
@@ -36,17 +35,15 @@ if turbulence {
   print("You may freely move around.")
 }
 ```
-{% endcode %}
 
 輸出：
 
 > You may freely move around.
 
-## 多重條件判斷 else if Statement
+### 多重條件判斷 else if Statement
 
 `else if` 提供了額外的判斷條件，`else if` 只能放在 `if` 的後面以及 `else` 之前
 
-{% code lineNumbers="true" %}
 ```swift
 var weather = "rainy" 
 
@@ -60,7 +57,6 @@ if weather == "sunny" {
   print("Invalid weather")
 }
 ```
-{% endcode %}
 
 輸出：
 
@@ -79,7 +75,6 @@ Swift 可用的比較運算子有：
 
 比較運算子會回傳布林值(Bool)
 
-{% code lineNumbers="true" %}
 ```swift
 print(5 > 1)
 print(6 < 10)
@@ -88,7 +83,6 @@ print(3 <= 5)
 print("A" == "a")
 print("B" != "b")
 ```
-{% endcode %}
 
 輸出：
 
@@ -112,13 +106,11 @@ print("B" != "b")
 
 當 `?` 不成立時，`:` 之後的程式碼區塊便會被執行
 
-{% code lineNumbers="true" %}
 ```swift
 var driverLicense = true
 
 driverLicense ? print("Driver's Seat") : print("Passenger's Seat")
 ```
-{% endcode %}
 
 輸出：
 
@@ -136,7 +128,6 @@ driverLicense ? print("Driver's Seat") : print("Passenger's Seat")
 
 定義 `case` 程式碼區塊要使用 `:`
 
-{% code lineNumbers="true" %}
 ```swift
 var secondaryColor = "green"
 
@@ -151,8 +142,55 @@ switch secondaryColor {
     print("This might not be a secondary color.") 
 }
 ```
-{% endcode %}
 
 輸出：
 
 > Mix of blue and yellow
+
+### 區間條件判斷 Interval Matching
+
+`case` 的條件也可以給一個區間(range of value)
+
+```swift
+let year = 1905
+var artPeriod: String
+
+switch year {
+  case 1860...1885:
+    artPeriod = "Impressionism"
+  case 1886...1910:
+    artPeriod = "Post Impressionism"
+  case 1912...1935: 
+    artPeriod = "Expressionism"
+  default:  
+    artPeriod = "Unknown"
+}
+print(artPeriod)
+```
+
+輸出：
+
+> Post Impressionism
+
+### 複合條件判斷 Compound Cases
+
+`case` 的條件也可以給一個以上的值
+
+```swift
+let service = "Seamless"
+
+switch service {
+  case "Uber", "Lyft":
+    print("Travel")
+  case "DoorDash", "Seamless", "GrubHub":
+    print("Restaurant delivery")
+  case "Instacart", "FreshDirect":
+    print("Grocery delivery")
+  default: 
+    print("Unknown service")
+}
+```
+
+輸出：
+
+> Restaurant delivery

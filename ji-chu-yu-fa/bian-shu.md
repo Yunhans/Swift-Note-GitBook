@@ -34,7 +34,7 @@ Swift 可用的算數運算子有：
 4. 除法運算子 `/`
 5. 餘數運算子 `%`
 
-{% code lineNumbers="true" fullWidth="false" %}
+{% code fullWidth="false" %}
 ```swift
 var x = 0
 
@@ -78,7 +78,6 @@ Swift 的基礎型態有：
 
 在變數(或常數)名稱之後加上 `: 型態` 宣告變數(或常數)型態
 
-{% code lineNumbers="true" %}
 ```swift
 var age: Int = 28
 var price: Double = 8.99
@@ -89,18 +88,15 @@ var lateToWork: Bool = true
 var name: String
 name = "Yunhans"
 ```
-{% endcode %}
 
 ## 字串插值 String Interpolation
 
 在字串中使用  `\(變數名稱)` 可以將變數代表的值插入字串中
 
-{% code lineNumbers="true" %}
 ```swift
 var apples = 6
 print("I have \(apples) apples!")
 ```
-{% endcode %}
 
 輸出：
 
@@ -118,14 +114,12 @@ Swift 可用的複合指派運算子有：
 4. 除法指派運算子 `/=`
 5. 餘數指派運算子 `%=`
 
-{% code lineNumbers="true" %}
 ```swift
 var numberOfDogs = 100
 numberOfDogs += 1 // numberOfDogs現在是101
 
 print("There are \(numberOfDogs) dalmations!")
 ```
-{% endcode %}
 
 輸出：
 
