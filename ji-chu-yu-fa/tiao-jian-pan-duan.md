@@ -106,7 +106,7 @@ print("B" != "b")
 
 ## 三元運算子 Ternary Conditional Operator
 
-算是一種更簡潔的 if...else 條件判斷
+算是一種更簡潔的 `if...else` 條件判斷
 
 如果 `?` 之後的條件成立(true)，`?` 之後 `:` 所包含的程式碼區塊便會被執行
 
@@ -123,6 +123,10 @@ driverLicense ? print("Driver's Seat") : print("Passenger's Seat")
 輸出：
 
 > Driver's Seat
+
+{% hint style="info" %}
+如果 if...else 內的處理很簡單具有共同性，例如只是宣告或回傳某值，就可以使用三元運算子
+{% endhint %}
 
 ## switch條件判斷 switch Statement
 
