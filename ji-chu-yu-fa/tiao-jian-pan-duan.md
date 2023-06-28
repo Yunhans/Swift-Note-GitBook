@@ -254,9 +254,13 @@ false || true && false   // false
 
 ### 控制邏輯判斷的優先順序 Controlling Order of Execution <a href="#heading-controlling-order-of-execution" id="heading-controlling-order-of-execution"></a>
 
-在結合使用邏輯運算子時，可以再想要優先判斷的邏輯表達式用 `()` 包起來
+在結合使用邏輯運算子時，可以在想要優先判斷的邏輯表達式用括號 `()` 包起來
 
 ```swift
 true || true && false || false      // true 
 (true || true) && (false || false)  // false
 ```
+
+{% hint style="info" %}
+加了括號可以增加程式碼的易讀性
+{% endhint %}
