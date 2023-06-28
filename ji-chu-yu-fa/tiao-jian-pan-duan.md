@@ -194,3 +194,83 @@ switch service {
 輸出：
 
 > Restaurant delivery
+
+### where 查詢子句 where Clause
+
+`case` 的條件也可以給一個 `where` 查詢子句來判斷變數的值有沒有符合描述
+
+```swift
+let num = 7
+
+switch num {
+  case let x where x % 2 == 0:
+    print("\(num) is even")
+  case let x where x % 2 == 1:
+    print("\(num) is odd")
+  default:
+    print("\(num) is invalid")
+}
+```
+
+輸出：
+
+> 7 is odd
+
+{% hint style="info" %}
+where 查詢子句有點像數學中的描述法
+
+```swift
+// where 查詢子句
+x where x % 2 == 0
+
+// 描述法
+{ x | x 除以 2 的餘數為 0 }
+```
+{% endhint %}
+
+## 邏輯運算子 Logical Operator
+
+Swift 可用的邏輯運算子有：
+
+1. 邏輯NOT運算子 `!`
+2. 邏輯AND運算子 `&&`
+3. 邏輯OR運算子 `||`
+
+邏輯運算子會回傳一個布林值(Bool)
+
+```swift
+!true           // false
+!false          // true
+
+true && true    // true
+true && false   // false 
+false && true   // false 
+false && false  // false
+
+true || true    // true
+true || false   // true
+false || true   // true 
+false || false  // false
+```
+
+### 邏輯運算子的結合使用 Combining Logical Operators
+
+在同一行程式碼中使用一個以上的邏輯運算子時，會從左至右依序判斷
+
+```swift
+!false && true || false  // true
+false || true && false   // false
+```
+
+{% hint style="info" %}
+上面的結果跟你想的有一樣嗎？
+{% endhint %}
+
+### 控制邏輯判斷的優先順序 Controlling Order of Execution <a href="#heading-controlling-order-of-execution" id="heading-controlling-order-of-execution"></a>
+
+在結合使用邏輯運算子時，可以再想要優先判斷的邏輯表達式用 `()` 包起來
+
+```swift
+true || true && false || false      // true 
+(true || true) && (false || false)  // false 
+```
