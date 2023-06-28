@@ -76,27 +76,13 @@ Swift 可用的比較運算子有：
 比較運算子會回傳布林值(Bool)
 
 ```swift
-print(5 > 1)
-print(6 < 10)
-print(2 >= 3)
-print(3 <= 5)
-print("A" == "a")
-print("B" != "b")
+5 > 1       // true 
+6 < 10      // true 
+2 >= 3      // false
+3 <= 5      // true
+"A" == "a"  // false
+"B" != "b"  // true
 ```
-
-輸出：
-
-> true
->
-> true
->
-> false
->
-> true
->
-> false
->
-> true
 
 ## 三元運算子 Ternary Conditional Operator
 
@@ -272,5 +258,5 @@ false || true && false   // false
 
 ```swift
 true || true && false || false      // true 
-(true || true) && (false || false)  // false 
+(true || true) && (false || false)  // false
 ```

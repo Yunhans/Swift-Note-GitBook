@@ -39,29 +39,12 @@ Swift 可用的算數運算子有：
 var x = 0
 
 x = 4 + 2  // x現在是6
-print(x)
 x = 4 - 2  // x現在是2
-print(x)
 x = 4 * 2  // x現在是8
-print(x)
 x = 4 / 2  // x現在是2
-print(x)
 x = 4 % 2  // x現在是0
-print(x)
 ```
 {% endcode %}
-
-輸出：
-
-> 6
->
-> 2
->
-> 8
->
-> 2
->
-> 0
 
 {% hint style="warning" %}
 如果把 var 換成 let 會發生什麼事呢？&#x20;
