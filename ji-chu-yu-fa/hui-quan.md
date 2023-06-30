@@ -132,13 +132,19 @@ for char in "supercalifragilisticexpialidocious" {
 
 ```swift
 var counter = 1
-var stopNum = Int.random(in: 1...10)
+var stopNum = 3
 
 while counter < stopNum {
   print(counter)
   counter += 1
 }
 ```
+
+輸出：
+
+> 1
+>
+> 2
 
 {% hint style="danger" %}
 如果條件永遠成立便會產生無窮迴圈
