@@ -58,6 +58,8 @@ if weather == "sunny" {
 
 > Grab an umbrella
 
+***
+
 ## 比較運算子
 
 Swift 可用的比較運算子有：
@@ -101,6 +103,8 @@ driverLicense ? print("Driver's Seat") : print("Passenger's Seat")
 {% hint style="info" %}
 如果 if...else 內的處理很簡單具有共同性，例如只是宣告或回傳某值，就可以使用三元運算子
 {% endhint %}
+
+***
 
 ## switch條件判斷
 
@@ -209,6 +213,8 @@ x where x % 2 == 0
 { x | x 除以 2 的餘數為 0 }
 ```
 {% endhint %}
+
+***
 
 ## 邏輯運算子
 
