@@ -1,6 +1,6 @@
 # Table of contents
 
-* [前言](README.md)
+* [前言](FOREWORD.md)
 * [Swift Playgrounds](swift-playgrounds.md)
 
 ## 基礎語法
