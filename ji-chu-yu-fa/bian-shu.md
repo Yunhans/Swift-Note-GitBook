@@ -1,10 +1,6 @@
----
-description: Variables
----
-
 # 變數
 
-## 變數 Variables
+## 變數
 
 變數將被儲存在電腦記憶體中，方便之後提取使用、修改資料
 
@@ -14,7 +10,7 @@ description: Variables
 var score = 0
 ```
 
-## 常數 Constants <a href="#heading-constants" id="heading-constants"></a>
+## 常數 <a href="#heading-constants" id="heading-constants"></a>
 
 常數將被儲存在電腦記憶體中，方便之後提取使用，跟變數不同的是常數一旦被宣告之後便不能修改常數的值
 
@@ -24,7 +20,7 @@ var score = 0
 let pi = 3.14
 ```
 
-## 算數運算子 Arithmetic Operators <a href="#heading-arithmetic-operators" id="heading-arithmetic-operators"></a>
+## 算數運算子 <a href="#heading-arithmetic-operators" id="heading-arithmetic-operators"></a>
 
 Swift 可用的算數運算子有：
 
@@ -50,7 +46,7 @@ x = 4 % 2  // x現在是0
 如果把 var 換成 let 會發生什麼事呢？&#x20;
 {% endhint %}
 
-## 型態 Types
+## 型態
 
 Swift 的基礎型態有：
 
@@ -59,7 +55,7 @@ Swift 的基礎型態有：
 3. 字串 `String`
 4. 布林值 `Bool`
 
-在變數(或常數)名稱之後加上 `: 型態` 宣告變數(或常數)型態
+在變數(或常數)名稱之後加上 `:型態` 宣告指定的變數(或常數)型態
 
 ```swift
 var age: Int = 28
@@ -72,7 +68,7 @@ var name: String
 name = "Yunhans"
 ```
 
-## 字串插值 String Interpolation
+## 字串插值
 
 在字串中使用  `\(變數名稱)` 可以將變數代表的值插入字串中
 
@@ -85,7 +81,7 @@ print("I have \(apples) apples!")
 
 > I have 6 apples!
 
-## 複合指派運算子 Compound Assignment Operators <a href="#e8-a4-87-e5-90-88-e6-8c-87-e6-b4-be-e9-81-8b-e7-ae-97-e5-a-d-90" id="e8-a4-87-e5-90-88-e6-8c-87-e6-b4-be-e9-81-8b-e7-ae-97-e5-a-d-90"></a>
+## 複合指派運算子 <a href="#e8-a4-87-e5-90-88-e6-8c-87-e6-b4-be-e9-81-8b-e7-ae-97-e5-a-d-90" id="e8-a4-87-e5-90-88-e6-8c-87-e6-b4-be-e9-81-8b-e7-ae-97-e5-a-d-90"></a>
 
 把算數運算子和 `=` 結合，簡化更新值的程式碼
 

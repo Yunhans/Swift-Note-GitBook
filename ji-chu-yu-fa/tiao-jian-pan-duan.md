@@ -1,10 +1,6 @@
----
-description: Conditionals & Logic
----
-
 # 條件判斷
 
-## if條件判斷 if Statement
+## if條件判斷
 
 如果 `if` 之後的條件成立(true)，`if` 所包含的程式碼區塊便會被執行
 
@@ -22,7 +18,7 @@ if halloween {
 
 > Trick or treat!
 
-### 例外條件判斷 else Statement
+### 例外條件判斷
 
 `else` 是 `if` 的好夥伴，當 `if` 不成立時，`else` 所包含的程式碼區塊便會被執行
 
@@ -40,7 +36,7 @@ if turbulence {
 
 > You may freely move around.
 
-### 多重條件判斷 else if Statement
+### 多重條件判斷
 
 `else if` 提供了額外的判斷條件，`else if` 只能放在 `if` 的後面以及 `else` 之前
 
@@ -62,7 +58,7 @@ if weather == "sunny" {
 
 > Grab an umbrella
 
-## 比較運算子 Comparison Operators
+## 比較運算子
 
 Swift 可用的比較運算子有：
 
@@ -84,7 +80,7 @@ Swift 可用的比較運算子有：
 "B" != "b"  // true
 ```
 
-## 三元運算子 Ternary Conditional Operator
+## 三元運算子
 
 算是一種更簡潔的 `if...else` 條件判斷
 
@@ -106,7 +102,7 @@ driverLicense ? print("Driver's Seat") : print("Passenger's Seat")
 如果 if...else 內的處理很簡單具有共同性，例如只是宣告或回傳某值，就可以使用三元運算子
 {% endhint %}
 
-## switch條件判斷 switch Statement
+## switch條件判斷
 
 如果 `switch` 後面的變數的值符合其中一個 `case` 的值，那塊 `case` 所包含的程式碼區塊便會被執行
 
@@ -133,9 +129,9 @@ switch secondaryColor {
 
 > Mix of blue and yellow
 
-### 區間條件判斷 Interval Matching
+### 區間條件判斷
 
-`case` 的條件也可以給一個區間(range of value)
+`case` 的條件也可以給一個區間
 
 ```swift
 let year = 1905
@@ -158,7 +154,7 @@ print(artPeriod)
 
 > Post Impressionism
 
-### 複合條件判斷 Compound Cases
+### 複合條件判斷
 
 `case` 的條件也可以給一個以上的值
 
@@ -181,7 +177,7 @@ switch service {
 
 > Restaurant delivery
 
-### where 查詢子句 where Clause
+### where 查詢子句
 
 `case` 的條件也可以給一個 `where` 查詢子句來判斷變數的值有沒有符合描述
 
@@ -214,7 +210,7 @@ x where x % 2 == 0
 ```
 {% endhint %}
 
-## 邏輯運算子 Logical Operator
+## 邏輯運算子
 
 Swift 可用的邏輯運算子有：
 
@@ -222,7 +218,7 @@ Swift 可用的邏輯運算子有：
 2. 邏輯AND運算子 `&&`
 3. 邏輯OR運算子 `||`
 
-邏輯運算子會回傳一個布林值(Bool)
+邏輯運算子會回傳一個布林值
 
 ```swift
 !true           // false
@@ -239,7 +235,7 @@ false || true   // true
 false || false  // false
 ```
 
-### 邏輯運算子的結合使用 Combining Logical Operators
+### 邏輯運算子的結合使用
 
 在同一行程式碼中使用一個以上的邏輯運算子時，會從左至右依序判斷
 
@@ -252,7 +248,7 @@ false || true && false   // false
 上面的結果跟你想的有一樣嗎？
 {% endhint %}
 
-### 控制邏輯判斷的優先順序 Controlling Order of Execution <a href="#heading-controlling-order-of-execution" id="heading-controlling-order-of-execution"></a>
+### 控制邏輯判斷的優先順序 <a href="#heading-controlling-order-of-execution" id="heading-controlling-order-of-execution"></a>
 
 在結合使用邏輯運算子時，可以在想要優先判斷的邏輯表達式用括號 `()` 包起來
 
