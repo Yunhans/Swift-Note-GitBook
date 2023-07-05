@@ -12,3 +12,5 @@
 * [陣列與集合](ji-chu-yu-fa/zhen-lie-yu-ji-he.md)
 * [字典](ji-chu-yu-fa/zi-dian.md)
 * [函式](ji-chu-yu-fa/han-shi.md)
+* [結構](ji-chu-yu-fa/jie-gou.md)
+* [類別](ji-chu-yu-fa/lei-bie.md)

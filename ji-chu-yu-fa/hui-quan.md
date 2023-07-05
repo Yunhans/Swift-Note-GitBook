@@ -38,7 +38,7 @@ for char in "hehe" {
 
 `in` 後面的資料集合可以使用 `stride()` 讓區間宣告更加靈活
 
-使用stride() 要輸入三個參數：
+使用 `stride()` 要輸入三個參數：
 
 1. 區間起始數字 `from`
 2. 區間結束數字(不包含) `to`
@@ -62,7 +62,7 @@ for oddNum in stride(from: 1, to: 5, by: 2) {
 
 ### 底線
 
-for-in 迴圈中的變數如果沒有被使用到，可以使用 `_` 來省略宣告變數
+`for-in` 迴圈中的變數如果沒有被使用到，可以使用 `_` 來省略宣告變數
 
 ```swift
 for _ in 1...3 {
@@ -126,7 +126,7 @@ for char in "supercalifragilisticexpialidocious" {
 >
 > r
 
-## while迴圈
+## while 迴圈
 
 只要 `while` 後面的條件成立(true)，`while` 包含的程式碼區塊便會重複執行，直到條件不再成立(false)
 

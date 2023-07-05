@@ -1,6 +1,6 @@
 # 條件判斷
 
-## if條件判斷
+## if 條件判斷
 
 如果 `if` 之後的條件成立(true)，`if` 所包含的程式碼區塊便會被執行
 
@@ -106,7 +106,7 @@ driverLicense ? print("Driver's Seat") : print("Passenger's Seat")
 
 ***
 
-## switch條件判斷
+## switch 條件判斷
 
 如果 `switch` 後面的變數的值符合其中一個 `case` 的值，那塊 `case` 所包含的程式碼區塊便會被執行
 
