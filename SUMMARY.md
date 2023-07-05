@@ -10,3 +10,4 @@
 * [條件判斷](ji-chu-yu-fa/tiao-jian-pan-duan.md)
 * [迴圈](ji-chu-yu-fa/hui-quan.md)
 * [陣列與集合](ji-chu-yu-fa/zhen-lie-yu-ji-he.md)
+* [字典](ji-chu-yu-fa/zi-dian.md)

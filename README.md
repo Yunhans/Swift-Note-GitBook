@@ -2,7 +2,7 @@
 
 ## 歡迎
 
-這是一個學習swift程式語言的筆記
+這是一個學習 Swift 程式語言的筆記
 
 資料來源：
 
@@ -11,6 +11,4 @@
 
 ### 作者
 
-中央大學資管系 石昀翰
-
-[github 帳號](https://github.com/Yunhans)
+中央大學資管系 石昀翰 [github 帳號](https://github.com/Yunhans)
