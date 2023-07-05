@@ -14,3 +14,7 @@
 * [函式](ji-chu-yu-fa/han-shi.md)
 * [結構](ji-chu-yu-fa/jie-gou.md)
 * [類別](ji-chu-yu-fa/lei-bie.md)
+
+## 進階語法
+
+* [列舉](jin-jie-yu-fa/lie-ju.md)
