@@ -11,3 +11,4 @@
 * [迴圈](ji-chu-yu-fa/hui-quan.md)
 * [陣列與集合](ji-chu-yu-fa/zhen-lie-yu-ji-he.md)
 * [字典](ji-chu-yu-fa/zi-dian.md)
+* [函式](ji-chu-yu-fa/han-shi.md)
