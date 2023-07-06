@@ -124,9 +124,9 @@ print("Welcome!  Your email is \(email ?? "unknown").")
 
 > Welcome! Your email is unknown.
 
-### 結合函數
+### 結合函式
 
-函數傳入的參數和回傳值可以是 Optional 型態
+函式傳入的參數和回傳值可以是 Optional 型態
 
 ```swift
 func getFirstInitial(from name: String?) -> String? {

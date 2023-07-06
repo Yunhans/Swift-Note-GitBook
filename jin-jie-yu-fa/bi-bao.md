@@ -103,7 +103,7 @@ print(sum)
 
 ### @escaping
 
-如果想讓參數有閉包的函數在宣告完還能被呼叫，要在閉包前面加上 `@escaping`
+如果想讓參數有閉包的函式在宣告完還能被呼叫，要在閉包前面加上 `@escaping`
 
 ```swift
 struct TextSaver {
@@ -164,9 +164,9 @@ printGoodbye()
 
 ***
 
-## 常見的高階函數
+## 常見的高階函式
 
-Swift 常見的高階函數有：
+Swift 常見的高階函式有：
 
 1. `filter`
 2. `map`
