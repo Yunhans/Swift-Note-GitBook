@@ -184,7 +184,7 @@ if let redHex = primaryHex["red"] {
 > The hex code for red is #ff0000
 
 {% hint style="info" %}
-字典中對應值型態是 Optional，可以參考進階語法
+字典中對應值型態是 Optional，可以參考[進階語法](../jin-jie-yu-fa/optional.md)
 {% endhint %}
 
 ### 結合 for 迴圈

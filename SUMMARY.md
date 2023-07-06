@@ -19,3 +19,4 @@
 
 * [列舉](jin-jie-yu-fa/lie-ju.md)
 * [Optional](jin-jie-yu-fa/optional.md)
+* [閉包](jin-jie-yu-fa/bi-bao.md)
