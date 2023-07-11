@@ -91,7 +91,7 @@ let customerOrder: Dessert = .cake(flavor: "Red Velvet")
 
 寫在列舉中的函式只有同列舉的實體才能呼叫
 
-如果會更改列舉的 `case` ，宣告函式時前面要加上 `mutating`
+如果會更改列舉的 `case` ，宣告方法時前面要加上 `mutating`
 
 ```swift
 enum Traffic {
@@ -112,7 +112,7 @@ currentTraffic.reportAccident()
 
 ### 計算屬性
 
-`enum` 裡可以儲存計算屬性的變數
+`enum` 裡可以儲存計算屬性
 
 ```swift
 enum ShirtSize: String {
@@ -128,7 +128,7 @@ enum ShirtSize: String {
 ```
 
 {% hint style="info" %}
-計算屬性就像是一個偽裝成變數的函式，儲存的不是值而是一個「取得值的方法」
+計算屬性就像是一個偽裝成屬性的方法，儲存的不是值而是一個「取得值的方法」
 {% endhint %}
 
 ### 結合 switch 條件判斷

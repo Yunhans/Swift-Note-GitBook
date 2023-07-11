@@ -168,10 +168,10 @@ printGoodbye()
 
 Swift 常見的高階函式有：
 
-1. `filter`
-2. `map`
-3. `reduce`&#x20;
-4. `sorted`
+* `filter`
+* `map`
+* `reduce`&#x20;
+* `sorted`
 
 ```swift
 let scores = [4,10,3,7,5]
